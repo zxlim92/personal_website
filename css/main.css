@@ -6,6 +6,7 @@
     padding: 0;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
+    caret-color: transparent;
 
 }
 
@@ -19,12 +20,13 @@ button {
 }
 
 header {
-    opacity: 0.95;
+    /* opacity: 1; */
     background-color: #24252a;
     display: flex;
     justify-content: flex-end;
     padding: 3px 5%;
     align-items: center;
+    z-index: 9999;
 }
 
 .logo {
@@ -159,6 +161,10 @@ section {
 #about {
     height: 70vh;
 }
+#contact {
+    height: 30vh;
+    
+}
 .work__img{
     box-shadow: 0 4px 25px rgba(14,36,49,.15);
     border-radius: .5rem;
@@ -215,10 +221,10 @@ section {
 
   .work__container{
     display: grid;
-    grid-template-columns: auto auto auto ;
-    grid-template-rows: 200px,200px,200px;
-    column-gap: 2rem;
-    row-gap: 2rem;
+    grid-template-columns: auto auto auto auto ;
+    /* grid-template-rows: 200px,200px,200px; */
+    column-gap: 5rem;
+    row-gap: 5rem;
   }
 
   .work__img{
@@ -249,3 +255,41 @@ section {
   #projects{
     position: relative;
   }
+  .titles{
+    color: rgba(0, 136, 169, 1);
+    font-weight: 500;
+  }
+  .sub_titles{
+    color: rgba(0, 136, 169, 0.8);
+    font-weight: 600;
+
+  }
+  .sub_role{
+ 
+    font-weight: 600;
+
+  }
+  h3{
+    display: inline;
+  }
+  .email {
+    float: left;
+
+   
+}
+.email_text{
+    
+    text-align: center;
+    line-height: 50px;
+    margin-left: 20px;
+}
+.email_div{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.row-container {
+    display: flex;
+    align-items: center;
+  }
+
