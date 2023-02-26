@@ -223,7 +223,7 @@ section {
 
 .work__container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
 
     column-gap: 5rem;
     row-gap: 5rem;
@@ -307,3 +307,19 @@ h3 {
     display: flex;
     align-items: center;
 }
+.video-text-wrapper {
+    overflow: hidden;
+  }
+  
+  .video-wrapper {
+    float: left;
+
+    margin-right: 20px;
+    margin-left: 15%;
+  }
+  
+  .text-wrapper {
+    float: right;
+    width: 30%;
+    margin-right: 20%;
+  }
